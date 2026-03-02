@@ -1,3 +1,8 @@
+"""
+This module contains the main application and its configuration.
+"""
+
+# Import the necessary modules
 from fastapi import FastAPI
 from app.routes.sessions import router as sessions_router
 
